@@ -40,7 +40,7 @@ namespace Triangle_GG
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            try { 
             listView1.Items.Clear();
             double a, b, c;
             a = Convert.ToDouble(txtA.Text);
@@ -100,8 +100,11 @@ namespace Triangle_GG
             }
             if (triangle.ExistTriangle) { listView1.Items[5].SubItems.Add("Существует"); }
             else listView1.Items[5].SubItems.Add("Не существует");
-
-
+            }
+            catch
+            {
+                listView1.Items.Add("нужны данные");
+            }
 
         }
 
@@ -125,6 +128,10 @@ namespace Triangle_GG
 
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

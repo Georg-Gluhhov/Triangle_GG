@@ -25,6 +25,7 @@ namespace Triangle_GG
 
         private void RunButton_Click(object sender, EventArgs e)
         {
+            try { 
             listView1.Items.Clear();
             double a, b, c;
             a = Convert.ToDouble(txtA.Text);
@@ -59,6 +60,11 @@ namespace Triangle_GG
             {
                 listView1.Items[6].SubItems.Add("Разносторонний");
                 TriangleImage.Image = Image.FromFile(@"..\..\img\RaznStorTriangle.png");
+            }
+            }
+            catch
+            {
+                listView1.Items.Add("Нужны данные");
             }
         }
 
