@@ -1,0 +1,11 @@
+C:\Users\opilane\source\repos\Triangle_GG\obj\Debug\Triangle_GG.csprojAssemblyReference.cache
+C:\Users\opilane\source\repos\Triangle_GG\obj\Debug\Triangle_GG.Form1.resources
+C:\Users\opilane\source\repos\Triangle_GG\obj\Debug\Triangle_GG.Properties.Resources.resources
+C:\Users\opilane\source\repos\Triangle_GG\obj\Debug\Triangle_GG.csproj.GenerateResource.cache
+C:\Users\opilane\source\repos\Triangle_GG\obj\Debug\Triangle_GG.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\Triangle_GG\bin\Debug\Triangle_GG.exe.config
+C:\Users\opilane\source\repos\Triangle_GG\bin\Debug\Triangle_GG.exe
+C:\Users\opilane\source\repos\Triangle_GG\bin\Debug\Triangle_GG.pdb
+C:\Users\opilane\source\repos\Triangle_GG\obj\Debug\Triangle_GG.exe
+C:\Users\opilane\source\repos\Triangle_GG\obj\Debug\Triangle_GG.pdb
+C:\Users\opilane\source\repos\Triangle_GG\obj\Debug\Triangle_GG.Form2.resources

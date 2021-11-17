@@ -14,6 +14,7 @@ namespace Triangle_GG
     {
         public Form1()
         {
+
             InitializeComponent();
         }
 
@@ -63,7 +64,11 @@ namespace Triangle_GG
 
         private void TriangleImage_Click(object sender, EventArgs e)
         {
-
+            Hide();
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+            form2 = null;
+            Show();
         }
     }
 }

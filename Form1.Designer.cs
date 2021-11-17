@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.RunButton = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.txtA = new System.Windows.Forms.TextBox();
-            this.txtB = new System.Windows.Forms.TextBox();
-            this.txtC = new System.Windows.Forms.TextBox();
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.TriangleImage = new System.Windows.Forms.PictureBox();
+            this.txtC = new System.Windows.Forms.TextBox();
+            this.txtB = new System.Windows.Forms.TextBox();
+            this.txtA = new System.Windows.Forms.TextBox();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listView1 = new System.Windows.Forms.ListView();
             ((System.ComponentModel.ISupportInitialize)(this.TriangleImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,6 +55,48 @@
             this.RunButton.UseVisualStyleBackColor = false;
             this.RunButton.Click += new System.EventHandler(this.RunButton_Click);
             // 
+            // TriangleImage
+            // 
+            this.TriangleImage.Image = global::Triangle_GG.Properties.Resources.idle;
+            this.TriangleImage.Location = new System.Drawing.Point(486, 12);
+            this.TriangleImage.Name = "TriangleImage";
+            this.TriangleImage.Size = new System.Drawing.Size(200, 200);
+            this.TriangleImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.TriangleImage.TabIndex = 5;
+            this.TriangleImage.TabStop = false;
+            this.TriangleImage.Click += new System.EventHandler(this.TriangleImage_Click);
+            // 
+            // txtC
+            // 
+            this.txtC.Location = new System.Drawing.Point(292, 46);
+            this.txtC.Name = "txtC";
+            this.txtC.Size = new System.Drawing.Size(100, 20);
+            this.txtC.TabIndex = 4;
+            // 
+            // txtB
+            // 
+            this.txtB.Location = new System.Drawing.Point(162, 46);
+            this.txtB.Name = "txtB";
+            this.txtB.Size = new System.Drawing.Size(100, 20);
+            this.txtB.TabIndex = 3;
+            // 
+            // txtA
+            // 
+            this.txtA.Location = new System.Drawing.Point(34, 46);
+            this.txtA.Name = "txtA";
+            this.txtA.Size = new System.Drawing.Size(100, 20);
+            this.txtA.TabIndex = 2;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Информация";
+            this.columnHeader1.Width = 172;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Данные";
+            this.columnHeader2.Width = 179;
+            // 
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -67,47 +109,6 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Информация";
-            this.columnHeader1.Width = 172;
-            // 
-            // txtA
-            // 
-            this.txtA.Location = new System.Drawing.Point(34, 46);
-            this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(100, 20);
-            this.txtA.TabIndex = 2;
-            // 
-            // txtB
-            // 
-            this.txtB.Location = new System.Drawing.Point(162, 46);
-            this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(100, 20);
-            this.txtB.TabIndex = 3;
-            // 
-            // txtC
-            // 
-            this.txtC.Location = new System.Drawing.Point(292, 46);
-            this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(100, 20);
-            this.txtC.TabIndex = 4;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Данные";
-            this.columnHeader2.Width = 179;
-            // 
-            // TriangleImage
-            // 
-            this.TriangleImage.Location = new System.Drawing.Point(486, 12);
-            this.TriangleImage.Name = "TriangleImage";
-            this.TriangleImage.Size = new System.Drawing.Size(200, 200);
-            this.TriangleImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.TriangleImage.TabIndex = 5;
-            this.TriangleImage.TabStop = false;
-            this.TriangleImage.Click += new System.EventHandler(this.TriangleImage_Click);
             // 
             // Form1
             // 
@@ -132,13 +133,13 @@
         #endregion
 
         private System.Windows.Forms.Button RunButton;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.TextBox txtA;
-        private System.Windows.Forms.TextBox txtB;
-        private System.Windows.Forms.TextBox txtC;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.PictureBox TriangleImage;
+        private System.Windows.Forms.TextBox txtC;
+        private System.Windows.Forms.TextBox txtB;
+        private System.Windows.Forms.TextBox txtA;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ListView listView1;
     }
 }
 
